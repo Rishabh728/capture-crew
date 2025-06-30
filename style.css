@@ -2604,6 +2604,7 @@ select.mobile-device {
 	color: #cccccc;
 	font-weight: 200;
 	margin: 0px;
+    margin-top: -80px;
 }
 
 .ph-fonts-style{
