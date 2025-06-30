@@ -2973,14 +2973,21 @@ select.mobile-device {
 
 /* nav bnottom start  */
 
+.img-fluid-home{
+    height: 200px;
+}
+
 
 .home-top-video {
     /* position: absolute; */
 }
 .home-top-video video{
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 23px -25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
     /* position: relative; */
+    /* box-shadow: rgba(50, 50, 93, 0.50) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
     height: 100%;
     width: 99vw;
+    background-color: #000;
 }
 .home-video-text{
     position: absolute;
@@ -3004,19 +3011,28 @@ select.mobile-device {
 .nav-menu-bw{
     width: 80%;
     display: flex;
-    justify-content: center;
-    column-gap: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    /* column-gap: 50px; */
     font-size: 22px;
     color: gold; 
    
 
 }
 .nav-menu-bw i:hover{
-   border: solid;
-   padding: 5px;
-    border-radius: 100px;
+   /* border: solid; */
+   /* padding: 5px; */
+    /* border-radius: 100px; */
     
-    color: whitesmoke;
+    /* color: #ff0000; */
+
+    border-bottom: 7px solid gold;
+    
+    padding-bottom: 5px;
+    
+    align-items: center;
+    color: rgba(255, 255, 255, 0.73); 
+
 
 }
 
