@@ -502,8 +502,8 @@ a img.aligncenter {
     height: 70px;
 	background: transparent;
 	padding: 0px 0px;
-    backdrop-filter: blur(5px);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* backdrop-filter: blur(3px); */
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
 }
 
 
@@ -2973,8 +2973,14 @@ select.mobile-device {
 
 /* nav bnottom start  */
 
+.navbar-brand{
+    width: 40%;
+    
+}
+
 .img-fluid-home{
-    height: 200px;
+    height: 320px;
+    padding-bottom: 30px;
 }
 
 
@@ -2989,27 +2995,30 @@ select.mobile-device {
     width: 99vw;
     background-color: #000;
 }
-.home-video-text{
+.home-video-text {
     position: absolute;
     top:400px;
-    font-size: 75px;
-    color:white;
+    font-size: 35px;
+    color:gold;
     left: 20px;
-    font-family:Lobster, sans-serif;
+    text-shadow: #474747 3px 5px 2px;
+     
 
 }
 .home-video-text1{
     position: absolute;
-    top:470px;
-    font-size: 75px;
-    color:white;
+    top:440px;
+    font-size: 55px;
+    color:gold;
     left: 20px;
-    font-family:Lobster, sans-serif;
+    /* font-family:Lobster, sans-serif; */
+    text-shadow: #474747 3px 5px 2px;
 
 }
 
-.nav-menu-bw{
-    width: 80%;
+.nav-menu-bw {
+    width: 60%;
+    height: 70px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -3019,7 +3028,31 @@ select.mobile-device {
    
 
 }
-.nav-menu-bw i:hover{
+.nav-menu-bw  .middle-nav-icon{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* column-gap: 50px; */
+    font-size: 22px;
+    color: gold; 
+    /* backdrop-filter: blur(20px); */
+    /* border: solid; */
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    
+   
+
+}
+.nav-menu-bw  .middle-nav-icon a{
+   
+    color: gold; 
+    
+   
+
+}
+.nav-menu-bw div a i:hover{
    /* border: solid; */
    /* padding: 5px; */
     /* border-radius: 100px; */
@@ -3035,6 +3068,7 @@ select.mobile-device {
 
 
 }
+
 
 
 /* nav bnottom end  */
