@@ -667,6 +667,7 @@ a img.aligncenter {
 
 .demo-2 .page-view {
   background: url(uploads/building-sprite-2.png) no-repeat -9999px -9999px;
+  width: 100%;
 }
 
 .demo-2 .page-view h1 {
